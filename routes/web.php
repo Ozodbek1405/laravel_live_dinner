@@ -40,3 +40,8 @@ Route::get('/stuff', function () {
 Route::get('/reservation', function () {
     return view('pages.reservation');
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
