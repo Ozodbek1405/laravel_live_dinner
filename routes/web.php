@@ -34,9 +34,6 @@ Route::get('/gallery', function () {
 Route::get('/menu', function () {
     return view('pages.menu');
 });
-Route::get('/stuff', function () {
-    return view('pages.stuff');
-});
 Route::get('/reservation', function () {
     return view('pages.reservation');
 });

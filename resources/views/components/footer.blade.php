@@ -40,17 +40,13 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <h3>About Us</h3>
-                <p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+                <p>Integer cursus scelerisque ipsum id efficitur. Donec a dui
+                    fringilla, gravida lorem ac, semper magna.
+                    Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.
+                </p>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h3>Subscribe</h3>
-                <div class="subscribe_form">
-                    <form class="subscribe_form">
-                        <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-                        <button type="submit" class="submit">SUBSCRIBE</button>
-                        <div class="clearfix"></div>
-                    </form>
-                </div>
                 <ul class="list-inline f-social">
                     <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -79,8 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
-                        <a href="https://html.design/">html design</a></p>
+                    <p class="company-name">&copy; 2022 Live Dinner Restaurant</p>
                 </div>
             </div>
         </div>

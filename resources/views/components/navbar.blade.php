@@ -12,23 +12,10 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item home"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item menu"><a class="nav-link" href="/menu">Menu</a></li>
+                    <li class="nav-item reservation"><a class="nav-link" href="/reservation">Reservation</a></li>
+                    <li class="nav-item gallery"><a class="nav-link" href="/gallery">Gallery</a></li>
                     <li class="nav-item about"><a class="nav-link" href="/about">About</a></li>
-                    <li class="nav-item dropdown pages">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                            <a class="dropdown-item" href="/reservation">Reservation</a>
-                            <a class="dropdown-item" href="/stuff">Stuff</a>
-                            <a class="dropdown-item" href="/gallery">Gallery</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown blog">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                            <a class="dropdown-item" href="/blog">blog</a>
-                            <a class="dropdown-item" href="/blog_details">blog Single</a>
-                        </div>
-                    </li>
-                    <li class="nav-item contact"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item blog"><a class="nav-link" href="/blog">Blog</a></li>
                 </ul>
             </div>
         </div>
@@ -48,21 +35,15 @@
         $(".about").addClass("active");
     }
     else if (link[3] == 'reservation') {
-        $(".pages").addClass("active");
-    }
-    else if (link[3] == 'stuff') {
-        $(".pages").addClass("active");
-    }
-    else if (link[3] == 'gallery') {
-        $(".pages").addClass("active");
-    }
-    else if (link[3] == 'blog_details') {
-        $(".blog").addClass("active");
+        $(".reservation").addClass("active");
     }
     else if (link[3] == 'blog') {
         $(".blog").addClass("active");
     }
-    else if (link[3] == 'contact') {
-        $(".contact").addClass("active");
+    else if (link[3] == 'gallery') {
+        $(".gallery").addClass("active");
+    }
+    else if (link[3] == 'blog_details') {
+        $(".blog").addClass("active");
     }
 </script>
